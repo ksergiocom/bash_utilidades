@@ -1,0 +1,5 @@
+mysql.conf
+mysql-local.conf
+
+backups/*
+mysql.conf
