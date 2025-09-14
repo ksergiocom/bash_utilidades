@@ -21,3 +21,7 @@ Sincroniza dos bases de datos para dejarlas en el mismo estado.
 ## SCP files
 
 Copiar ficheros de un servidor a otro de forma "segura".# bash_utilidades
+
+## Find-Replace
+
+Buscar y reemplazar en todos los archivos a partir del directorio del script, pudiendo agregar exclusiones de ficheros o directorios.
