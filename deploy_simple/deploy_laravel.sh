@@ -11,6 +11,9 @@
 # 5. Ejecutar build de Vite y optimización de Laravel
 #################################################
 
+# Tengo en cuenta que el fichero esta en la raiz del repo
+cd "$(dirname "$0")" || { echo "❌ No se pudo acceder al directorio del script"; exit 1; }
+
 # Configuración
 BRANCH="main"
 SERVER_USER="user"             
