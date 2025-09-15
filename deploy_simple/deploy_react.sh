@@ -10,6 +10,9 @@
 # 4. Hacer `npm install` y `npm run build` en el servidor
 #################################################
 
+# Tengo en cuenta que el fichero esta en la raiz del repo
+cd "$(dirname "$0")" || { echo "❌ No se pudo acceder al directorio del script"; exit 1; }
+
 # Configuración
 BRANCH="master"
 SERVER_USER="sshuser"                    # Cambia por tu usuario en el servidor
